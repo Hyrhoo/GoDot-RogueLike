@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://7u0hyaqfullg"]
+
+[ext_resource type="Texture2D" uid="uid://xbkuywe5iiph" path="res://Scenes/Character/Sprits/Character.png" id="1_b1mh3"]
+[ext_resource type="Script" path="res://Scenes/Character/Character.gd" id="1_sthhq"]
+
+[node name="Level_1" type="Node2D"]
+metadata/_edit_lock_ = true
+
+[node name="Character" type="CharacterBody2D" parent="."]
+position = Vector2(554, 318)
+script = ExtResource("1_sthhq")
+
+[node name="Sprite" type="Sprite2D" parent="Character"]
+texture = ExtResource("1_b1mh3")
+metadata/_edit_lock_ = true
